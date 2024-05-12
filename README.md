@@ -3,7 +3,7 @@
 Switching between PHP versions in macOS via a bash script involves updating the symbolic links that point to the desired PHP version binaries. Here's a basic script to accomplish that:
 
 
-````
+```
 #!/bin/bash
 
 # Define the PHP versions and their installation paths
@@ -38,8 +38,10 @@ fi
 sudo ln -s "$PHP_INSTALL_PATH/$1/bin/php" /usr/local/bin/php
 
 echo "Switched PHP version to $1"
+
 ```
-Save this script to a file (e.g., switch_php_version.sh) and make it executable using `chmod +x switch_php_version.sh`.
+
+Save this script to a file (e.g., switch_php_version.sh) and make it executable using ```chmod +x switch_php_version.sh```.
 
 To switch between PHP versions, run the script with the desired PHP version as an argument. For example:
 
