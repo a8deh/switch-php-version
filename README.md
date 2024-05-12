@@ -1,4 +1,4 @@
-# switch php version
+# switch php version for macos
 
 Switching between PHP versions in macOS via a bash script involves updating the symbolic links that point to the desired PHP version binaries. Here's a basic script to accomplish that:
 
